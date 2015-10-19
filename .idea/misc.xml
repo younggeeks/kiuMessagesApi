@@ -3,30 +3,6 @@
   <component name="Archetypes.Configuration">
     <option name="workingDirectory" value="" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/GluonBasicProject" value="1445032184167" />
-        <entry key="$USER_HOME$/IdeaProjects/GluonBasicProject" value="1441021348545" />
-        <entry key="$USER_HOME$/IdeaProjects/GluonTry" value="1441022896749" />
-        <entry key="$USER_HOME$/IdeaProjects/NewHope" value="1440064108772" />
-        <entry key="$USER_HOME$/IdeaProjects/semRegistration" value="1435743366260" />
-        <entry key="$USER_HOME$/Ilearnt" value="1445032799391" />
-        <entry key="$USER_HOME$/newnuller" value="7208610983671" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>

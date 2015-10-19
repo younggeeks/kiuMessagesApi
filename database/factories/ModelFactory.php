@@ -10,12 +10,24 @@
 | database. Just tell the factory how a default model should look.
 |
 */
-
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+//
+//$factory->define(App\User::class, function (Faker\Generator $faker) {
+//    return [
+//        'name' => $faker->name,
+//        'email' => $faker->email,
+//        'password' => bcrypt(str_random(10)),
+//        'remember_token' => str_random(10),
+//    ];
+//});
+$factory->define(App\Message::class, function (Faker\Generator $faker) {
     return [
-        'name' => $faker->name,
-        'email' => $faker->email,
-        'password' => bcrypt(str_random(10)),
-        'remember_token' => str_random(10),
+        'title' => $faker->firstName,
+        'body' => $faker->paragraph(120),
+        'recepient' => $faker->domainWord,
+        'date' => $faker->date(),
+        'user_id' => 1,
     ];
 });
+
+
+
