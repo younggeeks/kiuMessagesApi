@@ -19,13 +19,22 @@
 //        'remember_token' => str_random(10),
 //    ];
 //});
-$factory->define(App\Message::class, function (Faker\Generator $faker) {
+//$factory->define(App\Message::class, function (Faker\Generator $faker) {
+//    return [
+//        'title' => $faker->firstName,
+//        'body' => $faker->paragraph(120),
+//        'recepient' => $faker->domainWord,
+//        'date' => $faker->date(),
+//        'user_id' => 1,
+//    ];
+//});
+$factory->define(App\Student::class, function (Faker\Generator $faker) {
     return [
-        'title' => $faker->firstName,
-        'body' => $faker->paragraph(120),
-        'recepient' => $faker->domainWord,
-        'date' => $faker->date(),
-        'user_id' => 1,
+        'first_name' => $faker->firstName,
+        'last_name' => $faker->lastName,
+        'phone' => $faker->phoneNumber,
+        'intake' => 100,
+        'program_code' => str_random(3),
     ];
 });
 
